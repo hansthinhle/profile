@@ -1,0 +1,34 @@
+linters:
+    Comment:
+        enabled: false
+    HexNotation:
+        style: lowercase
+    ImportPath:
+        leading_underscore: false
+        filename_extension: false
+    Indentation:
+        exclude:
+            - 'plugins/**'
+        severity: warning
+        character: tab
+        width: 1
+    LeadingZero:
+        style: include_zero
+    NameFormat:
+        convention: BEM
+    PropertySortOrder:
+        enabled: false
+    SelectorFormat:
+        convention: BEM
+    Shorthand:
+        enabled: true
+    SpaceAfterPropertyColon:
+        style: at_least_one_space
+    SpaceBeforeBrace:
+        allow_single_line_padding: true
+    StringQuotes:
+        style: single_quotes
+    UrlQuotes:
+        enabled: false
+    VendorPrefixes:
+        enabled: false
