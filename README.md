@@ -10,17 +10,23 @@ I created this profile because I love Front End Development so much and I wanna 
 ## Installation
 
 Get in the tools folder, install node components and bower components : 
+
 `sudo npm install`
+
 `sudo bower install`
 
 and run : 
+
 - for running gulp tasks : 
+
 `gulp`
 
 - for running on development :
+
 `gulp watch`
 
 - for running on production :
+
 `gulp production`
 
 ## Tests
